@@ -45,7 +45,7 @@ The framework first estimates attributed scattering centers and reconstructs a s
 The pretrained checkpoint used in our main experiments is available below.
 
 | Method | Backbone | Input channel | Hugging Face | Baidu Netdisk |
-|---|---|---:|---|---:|---|---|
+|---|---|---|---|---|
 | MAE | ViT-B/16 | 1 | [Download](https://huggingface.co/kiki-orb/phi-JEPA/blob/main/weights/mae_vitb16_e100.pth) | [Download](https://pan.baidu.com/s/16bmUiEU5QG4bpAseSocIuA?pwd=26i1) |
 | FG-MAE | ViT-B/16 | 1 | [Download](https://huggingface.co/kiki-orb/phi-JEPA/blob/main/weights/fgmae_vitb16_e100.pth) | [Download](https://pan.baidu.com/s/1xxtD7CMZ8pzhwkwUlBFxfg?pwd=wp6q) |
 | I-JEPA | ViT-B/16 | 3 | [Download](https://huggingface.co/kiki-orb/phi-JEPA/blob/main/weights/ijepa_vitb16_e100.pth.tar) | [Download](https://pan.baidu.com/s/1zJl27VDB8i4MCAG1Gm1Ujg?pwd=rc8h) |
