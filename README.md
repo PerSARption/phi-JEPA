@@ -9,13 +9,15 @@ Zhengzhou Research Institute, Beijing Institute of Technology
 Henan Provincial Center for Integrated Innovation in Advanced Radar Intelligent Sensing
 
 [![Pretrained Weights](https://img.shields.io/badge/Hugging%20Face-Weights-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/kiki-orb/phi-JEPA)
+[![Baidu Netdisk](https://img.shields.io/badge/Baidu%20Netdisk-Weights-2932E1?logo=baidu&logoColor=white)](https://pan.baidu.com/s/1cCKYp2QWqVvw6hKTd243iA?pwd=7bcf)
 ![Status](https://img.shields.io/badge/Release-Weights%20Only-blue)
+
 
 </div>
 
 ## News
 
-- **2026-08-03:** The first &phi;-JEPA pretrained checkpoint is publicly available on [Hugging Face](https://huggingface.co/kiki-orb/phi-JEPA).
+- **2026-08-03:** The first &phi;-JEPA pretrained checkpoint is publicly available on [Hugging Face](https://huggingface.co/kiki-orb/phi-JEPA) and [Baidu Netdisk](https://pan.baidu.com/s/1cCKYp2QWqVvw6hKTd243iA?pwd=7bcf).
 - Training code and downstream evaluation code will be released in a future update.
 
 ## Overview
@@ -42,7 +44,6 @@ The framework first estimates attributed scattering centers and reconstructs a s
 
 The pretrained checkpoint used in our main experiments is available below.
 
-| Method | Backbone | Input size | Pre-training dataset | Epochs | Download |
-|---|---|---:|---|---:|---|
-| &phi;-JEPA | ViT-B/16 | 224 x 224 | ATRNet-STAR | 100 | [Hugging Face](https://huggingface.co/kiki-orb/phi-JEPA/blob/main/main_experiments/phi_jepa_vitb16_e100.pth) |
-
+| Method | Backbone | Input size | Pre-training dataset | Epochs | Hugging Face | Baidu Netdisk |
+|---|---|---:|---|---:|---|---|
+| &phi;-JEPA | ViT-B/16 | 224 x 224 | ATRNet-STAR | 100 | [Download](https://huggingface.co/kiki-orb/phi-JEPA/blob/main/main_experiments/phi_jepa_vitb16_e100.pth) | [Download](https://pan.baidu.com/s/1cCKYp2QWqVvw6hKTd243iA?pwd=7bcf) |
