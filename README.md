@@ -17,7 +17,7 @@ Henan Provincial Center for Integrated Innovation in Advanced Radar Intelligent 
 
 ## News
 
-- **2026-08-03:** The first &phi;-JEPA pretrained checkpoint is publicly available on [Hugging Face](https://huggingface.co/kiki-orb/phi-JEPA) and [Baidu Netdisk](https://pan.baidu.com/s/1cCKYp2QWqVvw6hKTd243iA?pwd=7bcf).
+- **2026-08-03:** Pre‑training weights are publicly available on  [Hugging Face](https://huggingface.co/kiki-orb/phi-JEPA)  and [Baidu Netdisk](https://pan.baidu.com/s/1cCKYp2QWqVvw6hKTd243iA?pwd=7bcf).
 - Training code and downstream evaluation code will be released in a future update.
 
 ## Overview
@@ -44,6 +44,11 @@ The framework first estimates attributed scattering centers and reconstructs a s
 
 The pretrained checkpoint used in our main experiments is available below.
 
-| Method | Backbone | Input size | Pre-training dataset | Epochs | Hugging Face | Baidu Netdisk |
+| Method | Backbone | Input channel | Hugging Face | Baidu Netdisk |
 |---|---|---:|---|---:|---|---|
-| &phi;-JEPA | ViT-B/16 | 224 x 224 | ATRNet-STAR | 100 | [Download](https://huggingface.co/kiki-orb/phi-JEPA/blob/main/main_experiments/phi_jepa_vitb16_e100.pth) | [Download](https://pan.baidu.com/s/1cCKYp2QWqVvw6hKTd243iA?pwd=7bcf) |
+| MAE | ViT-B/16 | 1 | [Download](https://huggingface.co/kiki-orb/phi-JEPA/blob/main/weights/mae_vitb16_e100.pth) | [Download](https://pan.baidu.com/s/16bmUiEU5QG4bpAseSocIuA?pwd=26i1) |
+| FG-MAE | ViT-B/16 | 1 | [Download](https://huggingface.co/kiki-orb/phi-JEPA/blob/main/weights/fgmae_vitb16_e100.pth) | [Download](https://pan.baidu.com/s/1xxtD7CMZ8pzhwkwUlBFxfg?pwd=wp6q) |
+| I-JEPA | ViT-B/16 | 3 | [Download](https://huggingface.co/kiki-orb/phi-JEPA/blob/main/weights/ijepa_vitb16_e100.pth.tar) | [Download](https://pan.baidu.com/s/1zJl27VDB8i4MCAG1Gm1Ujg?pwd=rc8h) |
+| LoMaR | ViT-B/16 | 1 | [Download](https://huggingface.co/kiki-orb/phi-JEPA/blob/main/weights/lomar_vitb16_e100.pth) | [Download](https://pan.baidu.com/s/11kHDWPxuLsZZuBNUyofc5g?pwd=kgjb) |
+| SAR-JEPA | ViT-B/16 | 1 | [Download](https://huggingface.co/kiki-orb/phi-JEPA/blob/main/weights/sarjepa_vitb16_e100.pth) | [Download](https://pan.baidu.com/s/1NzEvcdas3t1zUtCMlP5Ouw?pwd=baux) |
+| &phi;-JEPA | ViT-B/16 | 3 | [Download](https://huggingface.co/kiki-orb/phi-JEPA/blob/main/weights/phi_jepa_vitb16_.pth) | [Download](https://pan.baidu.com/s/1Dp2mOHR-fSmJZ3Et-lAsHQ?pwd=cap4) |
