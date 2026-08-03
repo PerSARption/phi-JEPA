@@ -29,6 +29,15 @@ We propose **&phi;-JEPA**, a physics-informed masked autoencoder for self-superv
 
 Together, SCM and SFP encourage the encoder to learn physically meaningful and transferable SAR representations for few-shot target recognition.
 
+## Framework
+
+<p align="center">
+  <img src="images/model.png" width="90%" alt="Overview of phi-JEPA">
+</p
+
+The framework first estimates attributed scattering centers and reconstructs a scattering-prior image for target-aware masking. A ViT-B encoder processes the masked SAR image, while a lightweight Transformer decoder predicts SARCLIP patch features at masked positions using a cosine feature-alignment objective.
+
+
 ## Pretrained Weights
 
 The pretrained checkpoint used in our main experiments is available below.
