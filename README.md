@@ -2,7 +2,7 @@
 
 # &phi;-JEPA: Where and What to Reconstruct in Physics-Informed Radar Pre-training?
 
-**Xin Zhang**, **Jiawei Pi**, **Yuqi Han**,**Liang Zhang**, and **Yanhua Wang**
+**Xin Zhang**, **Jiawei Pi**, **Yuqi Han**, **Liang Zhang**, and **Yanhua Wang**
 
 Radar Technology Research Institute, Beijing Institute of Technology  
 Zhengzhou Research Institute, Beijing Institute of Technology  
